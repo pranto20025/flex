@@ -1,0 +1,300 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: monospace;
+	font-size: 14px;
+	line-height: 24px;
+   /* height: 1700px;*/
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin:0px auto;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-4{
+	width: 33%;
+	float: left;
+}
+.header{
+	width: 100%;
+	float: left;
+/*  background:rgb(0,0,255)  */
+}
+.top-header{
+	width: 100%;
+	float: left;
+   background: #FF5733 ;
+	padding: 10px 0px;
+}
+.info{
+	font-size: 14px;
+	color: #000;
+	font-weight: 600;
+}
+.social-icons{
+	text-align: right;
+}
+.social-icons li{
+	list-style: none;
+	display:  inline-block;
+}
+.social-icons li a{
+	font-size: 14px;
+	color: #000;
+	margin: 0px 0px 0px 10px;
+}
+.social-icons li a:hover{
+	color: red;
+}
+.menu-sectio{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+}
+.menu-sectio .logo{
+	width: 20%;
+	float: left;
+}
+.menu-sectio .logo img{
+	width: 5px;
+}
+.menu{
+	width: 100%;
+	float: left;
+}
+.menu ul{
+
+	display: block;
+	text-align:right;
+	margin-top: -120px;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 0px 0px 10px;
+}
+.menu ul li a{
+	font-style: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 3px
+	color: #000;
+	margin: 0px 0px 0px 10px;
+	transition: .5s;
+}
+.menu ul li a:hover{
+	color: #08c;
+}
+.banner-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background-image: url(../images/1.jpg);
+	background-size: cover;
+	text-align: center;
+
+}
+.inner-banner{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+}
+.inner-banner h1{
+	font-size: :54px;
+	font-weight:700;
+	color: #000;
+	text-transform: capitalize;
+	line-height: 64px;
+	margin-bottom: 10px;
+}
+.inner-banner p{
+	font-size: :54px;
+	line-height:24px;
+	font-weight:400;
+	color: #000;
+	margin-bottom: 10px;
+
+}
+.inner-banner .btn{
+	display: inline-block;
+	margin: 30px 0px 0px;
+	padding: 10px 35px;
+	border-radius: 35px;
+	border: 1px solid#fff;
+	color: #fff;
+	background: transparent;
+	font-size: 14px;
+	text-transform: uppercase;
+	transition: 1s;
+
+}
+.inner-banner .btn:hover{
+	border: 1px solid #08c;
+	color: #fff;
+	background: #08c;
+}
+.feature{
+	width: 92%;
+	float: left;
+	padding: 80px 0px;
+}
+.inner-feature{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.inner-feature i{
+	width: 100px;
+	height: 100px;
+	line-height: 100px; 
+	border-radius: 100%;
+	background-color: #843b62;
+	color: #fff;
+	font-size: 45px;
+	margin-bottom: 15px;
+}
+.inner-feature i:hover{
+	background: #08c;
+	color: #843b62;
+}
+}
+.about{
+	width: 100%;
+	float: left;
+	padding: 80px;
+	padding-top: 30px;
+	background:#FF5733;
+
+}
+ .about img{
+	    width: 90%;
+	    float: left;
+        margin-left: 17%;
+
+}
+
+.item-1{
+	width: 90%;
+	float: left;
+	padding-top: 40px;
+	line-height:50px;
+	text-align: center;
+}
+.inner-content{
+	width: 100%;
+	float: left;
+	padding: 0px 25px;
+	text-align: right;
+    margin-bottom: 50%;
+    margin-right: 50%;
+}
+
+}
+.header-1{
+	width: 100%;
+	padding: 80px 0px;
+	background: #08c;
+}
+header h1{
+	font-size: 36px;
+	color: #fff;
+	text-align: center;
+}
+.flex-container{
+	margin: 50px 0px;
+	display: flex;
+}
+.flex-item{
+	background: #08c;
+	padding: 15px;
+	margin: 10px;
+}
+
+
+}
+form-1{
+    /*background:url(../images/123.jpg);*/
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+	margin-top: 40px;
+	/*margin-right:400px;*/
+
+}
+.Register{width:600px;
+	background-color:rgba(0, 0, 0, 0.8);
+    margin-right: 600px;
+	margin: auto;
+	color: #ffffff ;
+	padding: 15px 15px 0px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+
+}
+
+
+.main{
+	background-color: rgb(0,0,0,0,5);
+	width: 100px;
+	margin: auto;
+}
+
+div.main{
+	width: 400px;
+	margin: 100px auto 0px auto;
+}
+h2{
+	text-align: center;
+	padding: 20px;
+	font-family: sans-serif;
+}
+div.register{
+	background-color:rgba(0,0,0,0,3);
+	width: 100%;
+	border-radius: 10px;
+	border: 1px
+	font-size: 18px;
+	color: #fff;
+}
+form#register{
+	margin: 40px
+}
+
+label{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: italic;
+}
+input#name{
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+	background-color: #fff;
+
+}
+
+
+.footer{
+    width: 100%;
+ 	float: left;
+    background: #FF5733 ;
+    height:100px;
+
+}
+.footer p{
+	text-align: center;
+	margin-top: 30px;
+}
